@@ -1,0 +1,16 @@
+*{
+    display: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header,
+.footer{
+    height: 64px;
+}
+
+.main,
+.body,
+.quote{
+    height: 400px;
+}
