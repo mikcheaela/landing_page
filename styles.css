@@ -230,6 +230,22 @@ body > *{
     font-weight: 300;
 }
 
+.fa-regular{
+    color: #E5E7EB;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
+.footer{
+    height:64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
 
-
+.footer p{
+    font: 15px;
+    color: #E5E7EB;
+}
