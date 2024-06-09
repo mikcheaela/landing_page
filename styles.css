@@ -7,7 +7,7 @@
 
 a{
     text-decoration: none;
-    color: #E5E7EB;
+    color: #e5e7eba5;
 }
 
 body > *{
@@ -82,7 +82,7 @@ body > *{
 .main-text > p{
     width: 100%;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #e5e7eba5;
 }
 
 .main-image{
@@ -106,7 +106,7 @@ body > *{
 .body{
     display: flex;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     flex-direction: column;
     align-items:center;
 }
@@ -119,7 +119,7 @@ body > *{
     display: flex;
     list-style: none;
     text-decoration: none;
-    gap: 100px;
+    gap: 50px;
     text-align: center;
 }
 
@@ -147,6 +147,38 @@ body > *{
 .summoner{
     border: 5px solid #089cfe;
 }
+
+.body-list li p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.body-list li em{
+    color: rgba(0, 0, 0, 0.363);
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote .message{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote .name{
+    width: 100%;
+    text-align: right;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
 
 
 
